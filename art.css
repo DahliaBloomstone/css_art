@@ -22,3 +22,14 @@
     border-radius: 50%;
     background: #f9e0ae;
   }
+  .pot {
+    position: absolute;
+    border-bottom: 25vmin solid #835050;
+    border-left: 7vmin solid transparent;
+    border-right: 7vmin solid transparent;
+    height: 0;
+    width: 40vmin;
+    bottom: 15vmin;
+    transform: rotate(180deg);
+    border-radius: 3vmin;
+  }
