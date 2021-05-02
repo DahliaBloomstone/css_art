@@ -33,3 +33,10 @@
     transform: rotate(180deg);
     border-radius: 3vmin;
   }
+  .pot::after {
+    content: "";
+    position: absolute;
+    width: 26vmin;
+    height: 1vmin;
+    background: #000;
+  }
