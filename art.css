@@ -146,3 +146,75 @@
     border-left: 1vmin solid #335d2d;
   }
   
+  .pricks {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1vmin solid transparent;
+    border-right: 1vmin solid transparent;
+    border-bottom: 7vmin solid #335d2d;
+    transform: rotate(-45deg);
+  }
+  
+  .pricks::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 5vmin;
+    left: 9vmin;
+    border-left: 1vmin solid transparent;
+    border-right: 1vmin solid transparent;
+    border-bottom: 7vmin solid #335d2d;
+    transform: rotate(90deg);
+  }
+  
+  .pricks::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 7vmin;
+    left: -10vmin;
+    border-left: 1vmin solid transparent;
+    border-right: 1vmin solid transparent;
+    border-bottom: 7vmin solid #335d2d;
+  }
+  
+  .pricksRight {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -2vmin;
+    left: -1vmin;
+    border-left: 1vmin solid transparent;
+    border-right: 1vmin solid transparent;
+    border-bottom: 7vmin solid #335d2d;
+    transform: rotate(-45deg);
+  }
+  
+  .pricksRight::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 10vmin;
+    left: 9vmin;
+    border-left: 1vmin solid transparent;
+    border-right: 1vmin solid transparent;
+    border-bottom: 7vmin solid #335d2d;
+    transform: rotate(90deg);
+  }
+  
+  .pricksRight::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 4vmin;
+    left: 7vmin;
+    border-left: 1vmin solid transparent;
+    border-right: 1vmin solid transparent;
+    border-bottom: 7vmin solid #335d2d;
+    transform: rotate(60deg);
+  }
