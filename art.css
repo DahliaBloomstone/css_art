@@ -57,3 +57,26 @@
     0% {transform: scale(1, 0.1);}
     100% {transform: scale(1, 1);}
   }
+
+  .cheeks {
+    position: absolute;
+    width: 5vmin;
+    height: 2.5vmin;
+    top: 9vmin;
+    left: 2vmin;
+    background: red;
+    border-radius: 50%; 
+    opacity: 20%;
+    box-shadow: 16vmin 0 red;
+  }
+  
+  .mouth {
+    position: absolute;
+    width: 4vmin;
+    height: 4vmin;
+    top: 8vmin;
+    left: 10vmin;
+    border-radius: 50%;
+    background: transparent;
+    border-top: 1vmin solid #000;
+  }
