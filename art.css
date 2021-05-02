@@ -80,3 +80,69 @@
     background: transparent;
     border-top: 1vmin solid #000;
   }
+  .cactus {
+    position: absolute;
+    width: 17vmin;
+    height: 30vmin;
+    top: 15vmin;
+    left: 25vmin;
+    background: #799351;
+    border-radius: 45%;
+    border: 1vmin solid #000;
+  }
+  
+  .cactus::before {
+    content: "";
+    position: absolute;
+    width: 5vmin;
+    height: 30vmin;
+    left: 6vmin;
+    background: transparent;
+    border-radius: 50%;
+    border-right: 1vmin solid #335d2d;
+  }
+  
+  .cactus::after {
+    content: "";
+    position: absolute;
+    width: 5vmin;
+    height: 30vmin;
+    right: 6vmin;
+    background: transparent;
+    border-radius: 50%;
+    border-left: 1vmin solid #335d2d;
+  }
+  
+  .cactusSmall {
+    position: absolute;
+    width: 17vmin;
+    height:20vmin;
+    top: 25vmin;
+    right: 28vmin;
+    background: #799351;
+    border-radius: 45%;
+    border: 1vmin solid #000;
+  }
+  
+  .cactusSmall::before {
+    content: "";
+    position: absolute;
+    width: 5vmin;
+    height: 20vmin;
+    left: 6vmin;
+    background: transparent;
+    border-radius: 50%;
+    border-right: 1vmin solid #335d2d;
+  }
+  
+  .cactusSmall::after {
+    content: "";
+    position: absolute;
+    width: 5vmin;
+    height: 20vmin;
+    right: 6vmin;
+    background: transparent;
+    border-radius: 50%;
+    border-left: 1vmin solid #335d2d;
+  }
+  
